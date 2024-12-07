@@ -1,0 +1,47 @@
+[debug] [2024-12-05T19:42:41.929Z] ----------------------------------------------------------------------
+[debug] [2024-12-05T19:42:41.934Z] Command:       /snap/node/8863/bin/node /usr/local/bin/firebase init functions
+[debug] [2024-12-05T19:42:41.935Z] CLI Version:   13.28.0
+[debug] [2024-12-05T19:42:41.935Z] Platform:      linux
+[debug] [2024-12-05T19:42:41.936Z] Node Version:  v18.20.4
+[debug] [2024-12-05T19:42:41.970Z] Time:          Fri Dec 06 2024 01:12:41 GMT+0530 (India Standard Time)
+[debug] [2024-12-05T19:42:41.971Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-12-05T19:42:41.982Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-12-05T19:42:41.983Z] > authorizing via signed-in user (singamrakshitareddy@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/rguktvalley/Documents/project
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-12-05T19:42:42.054Z] Checked if tokens are valid: false, expires at: 1733393171190
+[debug] [2024-12-05T19:42:42.055Z] Checked if tokens are valid: false, expires at: 1733393171190
+[debug] [2024-12-05T19:42:42.056Z] > refreshing access token with scopes: []
+[debug] [2024-12-05T19:42:42.067Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-12-05T19:42:42.068Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-12-05T19:42:43.094Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-12-05T19:42:43.095Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-12-05T19:42:43.158Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-12-05T19:42:44.304Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2024-12-05T19:42:44.313Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[debug] [2024-12-05T19:45:24.614Z] Error: setRawMode EIO
+    at ReadStream.setRawMode (node:tty:77:31)
+    at [_setRawMode] [as _setRawMode] (node:internal/readline/interface:381:18)
+    at Interface.close (node:internal/readline/interface:531:24)
+    at ReadStream.ontermend (node:internal/readline/interface:267:10)
+    at ReadStream.emit (node:events:529:35)
+    at ReadStream.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1400:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
